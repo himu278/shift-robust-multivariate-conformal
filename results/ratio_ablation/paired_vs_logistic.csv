@@ -1,0 +1,73 @@
+setting,method,variant,metric,mean_diff,n,p_t
+tilt:7,Deep-LocalCov + WCP (ours),ridge10,coverage,0.34,20,0.118
+tilt:7,Deep-LocalCov + WCP (ours),ridge10,pct_infinite,-0.075,20,0.0016
+tilt:7,Deep-LocalCov + WCP (ours),clip99,coverage,-1.985,20,0.0011
+tilt:7,Deep-LocalCov + WCP (ours),clip99,pct_infinite,-0.49,20,0.0
+tilt:7,Deep-LocalCov + WCP (ours),clip95,coverage,-2.705,20,0.0016
+tilt:7,Deep-LocalCov + WCP (ours),clip95,pct_infinite,-0.49,20,0.0
+tilt:7,Deep-LocalCov + EUc (ours),ridge10,coverage,0.475,20,0.143
+tilt:7,Deep-LocalCov + EUc (ours),ridge10,pct_infinite,0.0,20,
+tilt:7,Deep-LocalCov + EUc (ours),clip99,coverage,-1.08,20,0.1615
+tilt:7,Deep-LocalCov + EUc (ours),clip99,pct_infinite,0.0,20,
+tilt:7,Deep-LocalCov + EUc (ours),clip95,coverage,-1.045,20,0.2251
+tilt:7,Deep-LocalCov + EUc (ours),clip95,pct_infinite,0.0,20,
+tilt:7,OTCP + WCP,ridge10,coverage,0.53,20,0.0036
+tilt:7,OTCP + WCP,ridge10,pct_infinite,-0.16,20,0.0004
+tilt:7,OTCP + WCP,clip99,coverage,0.355,20,0.2203
+tilt:7,OTCP + WCP,clip99,pct_infinite,-0.95,20,0.0
+tilt:7,OTCP + WCP,clip95,coverage,0.815,20,0.0393
+tilt:7,OTCP + WCP,clip95,pct_infinite,-0.95,20,0.0
+tilt:7,EUc-LR,ridge10,coverage,0.13,20,0.6782
+tilt:7,EUc-LR,ridge10,pct_infinite,0.0,20,
+tilt:7,EUc-LR,clip99,coverage,-0.335,20,0.4678
+tilt:7,EUc-LR,clip99,pct_infinite,0.0,20,
+tilt:7,EUc-LR,clip95,coverage,-0.135,20,0.7629
+tilt:7,EUc-LR,clip95,pct_infinite,0.0,20,
+patient:age,Deep-LocalCov + WCP (ours),ridge10,coverage,-1.92,20,0.1257
+patient:age,Deep-LocalCov + WCP (ours),ridge10,pct_infinite,-0.095,20,0.0007
+patient:age,Deep-LocalCov + WCP (ours),clip99,coverage,-2.77,20,0.039
+patient:age,Deep-LocalCov + WCP (ours),clip99,pct_infinite,-0.1,20,0.0003
+patient:age,Deep-LocalCov + WCP (ours),clip95,coverage,-3.24,20,0.0417
+patient:age,Deep-LocalCov + WCP (ours),clip95,pct_infinite,-0.1,20,0.0003
+patient:age,Deep-LocalCov + EUc (ours),ridge10,coverage,-3.585,20,0.0787
+patient:age,Deep-LocalCov + EUc (ours),ridge10,pct_infinite,0.0,20,
+patient:age,Deep-LocalCov + EUc (ours),clip99,coverage,-4.26,20,0.0417
+patient:age,Deep-LocalCov + EUc (ours),clip99,pct_infinite,0.0,20,
+patient:age,Deep-LocalCov + EUc (ours),clip95,coverage,-4.515,20,0.0545
+patient:age,Deep-LocalCov + EUc (ours),clip95,pct_infinite,0.0,20,
+patient:age,OTCP + WCP,ridge10,coverage,-0.45,20,0.5205
+patient:age,OTCP + WCP,ridge10,pct_infinite,-0.29,20,0.0008
+patient:age,OTCP + WCP,clip99,coverage,-0.585,20,0.4239
+patient:age,OTCP + WCP,clip99,pct_infinite,-0.295,20,0.001
+patient:age,OTCP + WCP,clip95,coverage,-0.53,20,0.476
+patient:age,OTCP + WCP,clip95,pct_infinite,-0.295,20,0.001
+patient:age,EUc-LR,ridge10,coverage,-3.645,20,0.0038
+patient:age,EUc-LR,ridge10,pct_infinite,0.0,20,
+patient:age,EUc-LR,clip99,coverage,-4.29,20,0.0028
+patient:age,EUc-LR,clip99,pct_infinite,0.0,20,
+patient:age,EUc-LR,clip95,coverage,-4.57,20,0.002
+patient:age,EUc-LR,clip95,pct_infinite,0.0,20,
+patient:sex,Deep-LocalCov + WCP (ours),ridge10,coverage,1.96,20,0.0635
+patient:sex,Deep-LocalCov + WCP (ours),ridge10,pct_infinite,-5.755,20,0.0018
+patient:sex,Deep-LocalCov + WCP (ours),clip99,coverage,-1.64,20,0.1961
+patient:sex,Deep-LocalCov + WCP (ours),clip99,pct_infinite,-12.19,20,0.0
+patient:sex,Deep-LocalCov + WCP (ours),clip95,coverage,-3.055,20,0.0758
+patient:sex,Deep-LocalCov + WCP (ours),clip95,pct_infinite,-12.19,20,0.0
+patient:sex,Deep-LocalCov + EUc (ours),ridge10,coverage,-0.775,20,0.7802
+patient:sex,Deep-LocalCov + EUc (ours),ridge10,pct_infinite,0.0,20,
+patient:sex,Deep-LocalCov + EUc (ours),clip99,coverage,-3.81,20,0.0725
+patient:sex,Deep-LocalCov + EUc (ours),clip99,pct_infinite,0.0,20,
+patient:sex,Deep-LocalCov + EUc (ours),clip95,coverage,-4.275,20,0.0947
+patient:sex,Deep-LocalCov + EUc (ours),clip95,pct_infinite,0.0,20,
+patient:sex,OTCP + WCP,ridge10,coverage,6.035,20,0.1564
+patient:sex,OTCP + WCP,ridge10,pct_infinite,-11.615,20,0.0004
+patient:sex,OTCP + WCP,clip99,coverage,4.45,20,0.3006
+patient:sex,OTCP + WCP,clip99,pct_infinite,-9.275,20,0.0109
+patient:sex,OTCP + WCP,clip95,coverage,2.595,20,0.5887
+patient:sex,OTCP + WCP,clip95,pct_infinite,-19.96,20,0.0
+patient:sex,EUc-LR,ridge10,coverage,0.15,20,0.7613
+patient:sex,EUc-LR,ridge10,pct_infinite,0.0,20,
+patient:sex,EUc-LR,clip99,coverage,-2.415,20,0.0018
+patient:sex,EUc-LR,clip99,pct_infinite,0.0,20,
+patient:sex,EUc-LR,clip95,coverage,-2.375,20,0.0232
+patient:sex,EUc-LR,clip95,pct_infinite,0.0,20,

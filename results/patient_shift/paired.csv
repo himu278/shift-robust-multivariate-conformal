@@ -1,0 +1,55 @@
+design,comparison,metric,mean_diff,n,p_t
+random,Deep-LocalCov + WCP (ours) - EUc-LR,coverage,-9.31,20,0.001
+random,Deep-LocalCov + WCP (ours) - EUc-LR,volume_median,-41154.0471,20,0.3291
+random,Deep-LocalCov + WCP (ours) - EUc-LR,WSC,-17.0417,20,0.0007
+random,Deep-LocalCov + EUc (ours) - EUc-LR,coverage,-8.74,20,0.0031
+random,Deep-LocalCov + EUc (ours) - EUc-LR,volume_median,-39353.968,20,0.3514
+random,Deep-LocalCov + EUc (ours) - EUc-LR,WSC,-13.7167,20,0.0072
+random,Deep-LocalCov + WCP (ours) - OTCP + WCP,coverage,-8.75,20,0.009
+random,Deep-LocalCov + WCP (ours) - OTCP + WCP,volume_median,-106.7969,20,0.0256
+random,Deep-LocalCov + WCP (ours) - OTCP + WCP,WSC,-22.325,20,0.0
+random,Deep-LocalCov + EUc (ours) - OTCP + WCP,coverage,-8.18,20,0.0052
+random,Deep-LocalCov + EUc (ours) - OTCP + WCP,volume_median,1693.2823,20,0.2559
+random,Deep-LocalCov + EUc (ours) - OTCP + WCP,WSC,-19.0,20,0.0001
+random,Deep-LocalCov + WCP (ours) - Deep-LocalCov,coverage,5.185,20,0.0122
+random,Deep-LocalCov + WCP (ours) - Deep-LocalCov,volume_median,68.8956,20,0.055
+random,Deep-LocalCov + WCP (ours) - Deep-LocalCov,WSC,4.9071,20,0.0078
+random,Deep-LocalCov + EUc (ours) - Deep-LocalCov,coverage,5.755,20,0.0238
+random,Deep-LocalCov + EUc (ours) - Deep-LocalCov,volume_median,1868.9748,20,0.2196
+random,Deep-LocalCov + EUc (ours) - Deep-LocalCov,WSC,8.2321,20,0.0293
+age,Deep-LocalCov + WCP (ours) - EUc-LR,coverage,-3.57,20,0.2042
+age,Deep-LocalCov + WCP (ours) - EUc-LR,volume_median,849.4467,20,0.948
+age,Deep-LocalCov + WCP (ours) - EUc-LR,WSC,-4.125,20,0.5008
+age,Deep-LocalCov + EUc (ours) - EUc-LR,coverage,-6.625,20,0.0178
+age,Deep-LocalCov + EUc (ours) - EUc-LR,volume_median,920296.7788,20,0.3205
+age,Deep-LocalCov + EUc (ours) - EUc-LR,WSC,-7.925,20,0.1352
+age,Deep-LocalCov + WCP (ours) - OTCP + WCP,coverage,4.4,20,0.1295
+age,Deep-LocalCov + WCP (ours) - OTCP + WCP,volume_median,11771.5901,20,0.2366
+age,Deep-LocalCov + WCP (ours) - OTCP + WCP,WSC,3.85,20,0.5465
+age,Deep-LocalCov + EUc (ours) - OTCP + WCP,coverage,1.345,20,0.5672
+age,Deep-LocalCov + EUc (ours) - OTCP + WCP,volume_median,931218.9223,20,0.3181
+age,Deep-LocalCov + EUc (ours) - OTCP + WCP,WSC,0.05,20,0.9921
+age,Deep-LocalCov + WCP (ours) - Deep-LocalCov,coverage,9.55,20,0.0112
+age,Deep-LocalCov + WCP (ours) - Deep-LocalCov,volume_median,12174.5435,20,0.2227
+age,Deep-LocalCov + WCP (ours) - Deep-LocalCov,WSC,20.2,20,0.0179
+age,Deep-LocalCov + EUc (ours) - Deep-LocalCov,coverage,6.495,20,0.0782
+age,Deep-LocalCov + EUc (ours) - Deep-LocalCov,volume_median,931621.8756,20,0.3179
+age,Deep-LocalCov + EUc (ours) - Deep-LocalCov,WSC,16.4,20,0.035
+sex,Deep-LocalCov + WCP (ours) - EUc-LR,coverage,-9.98,20,0.0969
+sex,Deep-LocalCov + WCP (ours) - EUc-LR,volume_median,-8.599118034150399e+26,20,0.1181
+sex,Deep-LocalCov + WCP (ours) - EUc-LR,WSC,-20.35,20,0.0341
+sex,Deep-LocalCov + EUc (ours) - EUc-LR,coverage,-9.92,20,0.0325
+sex,Deep-LocalCov + EUc (ours) - EUc-LR,volume_median,2.772748553653751e+30,20,0.3299
+sex,Deep-LocalCov + EUc (ours) - EUc-LR,WSC,-26.125,20,0.0036
+sex,Deep-LocalCov + WCP (ours) - OTCP + WCP,coverage,-6.8,20,0.0617
+sex,Deep-LocalCov + WCP (ours) - OTCP + WCP,volume_median,46281298.4244,20,0.3138
+sex,Deep-LocalCov + WCP (ours) - OTCP + WCP,WSC,-7.9417,20,0.115
+sex,Deep-LocalCov + EUc (ours) - OTCP + WCP,coverage,-6.74,20,0.2028
+sex,Deep-LocalCov + EUc (ours) - OTCP + WCP,volume_median,2.773608465457166e+30,20,0.3299
+sex,Deep-LocalCov + EUc (ours) - OTCP + WCP,WSC,-13.7167,20,0.163
+sex,Deep-LocalCov + WCP (ours) - Deep-LocalCov,coverage,7.855,20,0.0795
+sex,Deep-LocalCov + WCP (ours) - Deep-LocalCov,volume_median,46281443.9478,20,0.3138
+sex,Deep-LocalCov + WCP (ours) - Deep-LocalCov,WSC,26.9714,20,0.0005
+sex,Deep-LocalCov + EUc (ours) - Deep-LocalCov,coverage,7.915,20,0.097
+sex,Deep-LocalCov + EUc (ours) - Deep-LocalCov,volume_median,2.773608465457166e+30,20,0.3299
+sex,Deep-LocalCov + EUc (ours) - Deep-LocalCov,WSC,21.1964,20,0.0401

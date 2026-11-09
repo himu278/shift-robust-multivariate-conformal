@@ -1,0 +1,13 @@
+comparison,metric,mean_diff,n,p_t
+Deep-LocalCov + WCP (ours) - OTCP + WCP,coverage,2.465,20,0.0022
+Deep-LocalCov + WCP (ours) - OTCP + WCP,volume_median,91.3738,20,0.1736
+Deep-LocalCov + WCP (ours) - OTCP + WCP,WSC,6.6333,20,0.0033
+Deep-LocalCov + WCP (ours) - GRCP + WCP,coverage,2.325,20,0.0034
+Deep-LocalCov + WCP (ours) - GRCP + WCP,volume_median,-1193.7535,20,0.0
+Deep-LocalCov + WCP (ours) - GRCP + WCP,WSC,3.7,20,0.0853
+Deep-LocalCov + EUc (ours) - OTCP + WCP,coverage,1.78,20,0.0064
+Deep-LocalCov + EUc (ours) - OTCP + WCP,volume_median,611.7394,20,0.0283
+Deep-LocalCov + EUc (ours) - OTCP + WCP,WSC,4.5333,20,0.0183
+Deep-LocalCov + EUc (ours) - GRCP + WCP,coverage,1.64,20,0.0233
+Deep-LocalCov + EUc (ours) - GRCP + WCP,volume_median,-673.3878,20,0.0194
+Deep-LocalCov + EUc (ours) - GRCP + WCP,WSC,1.6,20,0.4274

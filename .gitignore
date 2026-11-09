@@ -1,0 +1,13 @@
+# Data: download from UCI (see data/README.md)
+data/*
+!data/README.md
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
